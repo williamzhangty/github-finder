@@ -1,0 +1,240 @@
+/* src/style/style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212; /* Dark background */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+ /* Add to src/style/style.css */
+
+ .logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+/* Center the form and its elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center form contents */
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px; /* Space between input and button */
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #0d6efd; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0b5ed7; /* Button hover color */
+}
+
+.error-container {
+  display: flex;
+  justify-content: flex-start; /* Align contents to the left */
+  width: 100%;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.error-message {
+  color: white;
+}
+
+  
+  .container {
+    text-align: center;
+  }
+  
+
+  /* Add to or update in src/style/style.css */
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .avatar-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white; /* White border for avatar */
+  }
+  
+  .avatar {
+    width: 100%;
+    height: auto;
+  }
+  
+  .user-details {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .user-details h1 {
+    font-size: 1.5em;
+    margin-top: 10px; /* Ensure some space between the image and text */
+    color: white; /* Specify text color, if needed */
+  }
+  
+/* Add to src/style/style.css */
+
+/* Center the stats container */
+.stats {
+  display: flex;
+  justify-content: center; /* Center the stats horizontally */
+  gap: 20px; /* Add some space between the stat elements */
+
+}
+
+/* Style each stat item */
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content within each stat element */
+  text-align: center;
+  color: white; /* Ensure the text is visible on dark background */
+  width: 120px;
+  
+}
+
+.stat strong {
+  font-size: 1.0rem;
+}
+
+.stat span {
+  font-size: 0.9rem;
+  color: #aaa; /* Slightly lighter text color for the label */
+}
+
+
+  .github-link {
+    background-color: #0d6efd; /* Bootstrap blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none; /* Remove underline from link */
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .github-link:hover {
+    background-color: #0b5ed7; /* Darker blue on hover */
+  }
+  
+
+  /* Update src/style/style.css with repository list styles */
+
+  
+  .repo-item {
+    border-bottom: 1px solid #444; /* Slightly lighter line for separation */
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .repo-item:last-child {
+    border-bottom: none; /* No border at the bottom of the last item */
+  }
+  
+  .repo-name {
+    font-weight: bold;
+  }
+  
+  .repo-description {
+    color: #ccc; /* Lighter text color for description */
+  }
+  
+  .repo-updated {
+    color: #aaa; /* Even lighter text color for the update date */
+  }
+  
+  /* Center repo-list within user-container */
+.repo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers the repo-list horizontally */
+    width: 94%;  /* Adjust width as necessary */
+    background-color: #333; /* Dark background for the repo list */
+    border-radius: 5px;
+    padding: 0 15px;
+  
+  }
+  
+  .repo-item {
+    width: 100%;  /* Ensure repo-item takes full width of repo-list */
+    border-bottom: 1px solid #444; /* Slightly lighter line for separation */
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .repo-item:last-child {
+    border-bottom: none; /* No border at the bottom of the last item */
+  }
+  
+  .repo-name {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  
+  .repo-description {
+    color: #ccc; /* Lighter text color for description */
+    font-size: 12px;
+  }
+  
+  .repo-updated {
+    color: #aaa; /* Even lighter text color for the update date */
+    font-size: 12px;
+  }
+
+  span {
+      margin:10px;
+      font-size: 12px;
+  }
+
+  .repo-name a {
+      color: goldenrod;
+      text-decoration: none;
+  }
+  
